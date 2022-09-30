@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+    color: lightgrey;
+}
+
+header {
+    background-color: #3d4e4e;
+}
+
+p {
+    width: 300px;
+    margin: 0px,50px,0px,50px;
+    padding: 50px;
+}
+
+a {
+    color: lightblue;
+}
+
+.teddy {
+    margin: 0px,50px,0px,50px;
+    padding: 50px;
+}
+
+h1 {
+   
+    
+}
