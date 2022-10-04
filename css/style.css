@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
 body {
     background-color: #CEE3E6;
     color: #294754;
+    font-family: 'Kadwa', serif;
 }
 
 header {
@@ -8,6 +12,7 @@ header {
 }
 
 .nav-header {
+    text-align: right;
     
 }
 
@@ -16,6 +21,9 @@ header {
 }
 
 h1 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 96px;
+    text-align: center;
     
 }
 
@@ -54,16 +62,20 @@ h1 {
 
 
 
-.All-the-tings {
+.All-the-things {
     background-color: #D4FDD3;
-    width: 33%;
-    height: 200px;
+    width: 20%;
+    height: 300px;
+}
+
+.fox {
+    border-radius: 50%;
 }
 
 .About_me {
     background-color: #D4FDD3;
-    width: 33%;
-    height: 200px;
+    width: 20%;
+    height: 300px;
 }
 
 footer {
@@ -73,6 +85,7 @@ footer {
 }
 
 .nav-footer {
+    text-align: center;
 
 }
 
