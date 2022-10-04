@@ -6,11 +6,60 @@ header {
     background-color: #299D8F;
 }
 
+.contact {
+    background-color: #B1A1DE;
+}
+
 h1 {
     
 }
 
-.Avatar {
 
+
+
+.avatar-TLSP {
+    position: relative;
+}
+
+.Avatar {
+    border-radius: 50%;
+    display: inline-block;
+    
+    
+}
+
+.TLSP {
+    background-color: #D4FDD3;
+    width: 33%;
+    height: 200px;
+    margin: -100px 0 0 300px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+
+.scroll {
+    width: 3000px;
+    overflow: scroll;
+
+}
+
+.no-scroll {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.All-the-tings {
+    background-color: #D4FDD3;
+    width: 33%;
+    height: 200px;
+}
+
+.About_me {
+    background-color: #D4FDD3;
+    width: 33%;
+    height: 200px;
 }
 
