@@ -1,5 +1,9 @@
 body {
     background-color: #CEE3E6;
+<<<<<<< HEAD
+=======
+    color: #294754;
+>>>>>>> 70c9d19abe557e23af4a39ef8dea066ed15d418b
 }
 
 header {
@@ -7,6 +11,7 @@ header {
 }
 
 h1 {
+<<<<<<< HEAD
     
 }
 
@@ -14,3 +19,8 @@ h1 {
 
 }
 
+=======
+    font-size: 4em;
+    
+}
+>>>>>>> 70c9d19abe557e23af4a39ef8dea066ed15d418b
