@@ -1,9 +1,14 @@
 body {
     background-color: #CEE3E6;
+    color: #294754;
 }
 
 header {
     background-color: #299D8F;
+}
+
+.nav-header {
+    
 }
 
 .contact {
@@ -62,4 +67,15 @@ h1 {
     width: 33%;
     height: 200px;
 }
+
+footer {
+    background-color: #299D8F;
+    height: 100px;
+
+}
+
+.nav-footer {
+
+}
+
 
