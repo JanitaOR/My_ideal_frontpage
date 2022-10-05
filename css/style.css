@@ -86,7 +86,10 @@ h1 {
 }
 
 .about {
-    position: relative;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: fle;
+    
     
 }
 
@@ -122,3 +125,35 @@ footer {
 }
 
 
+
+
+
+
+
+
+.centered {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    
+}
+
+.box1 {
+    width: 20%;
+    height: 80px;
+    background-color: darkgreen;
+    display: inline-block;
+}
+
+.box2 {
+    width: 22%;
+    height: 80px;
+    background-color: darkseagreen;
+    display: inline-block;
+}
+
+.box3 {
+    width: 22%;
+    height: 80px;
+    background-color: burlywood;
+    display: inline-block;
+}
