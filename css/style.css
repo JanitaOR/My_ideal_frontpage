@@ -44,13 +44,16 @@ h1 {
 
 
 .avatar-TLSP {
-    position: relative;
+    /*position: relative;*/
+    position: flex;
 }
 
 .Avatar {
     border-radius: 50%;
     border: 20px solid #B1A1DE;
-    display: inline-block;
+    /*display: inline-block;*/
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
     
     
 }
@@ -88,7 +91,7 @@ h1 {
 .about {
     width: 80%;
     margin: 0 auto 0 auto;
-    display: fle;
+    display: flex;
     
     
 }
@@ -103,7 +106,7 @@ h1 {
 .profil {
     border-radius: 50%;
     display: inline-block;
-    border: 20px solid #B1A1DE;
+    border: solid #B1A1DE;
 }
 
 .About_me {
