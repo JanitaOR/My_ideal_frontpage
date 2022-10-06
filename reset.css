@@ -1,0 +1,7 @@
+/** {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+denne gir box-model inne i size, padding, border osv begynner på den 
+størrelsen man har gitt elementet. * treffer alle elementer på html siden.*/

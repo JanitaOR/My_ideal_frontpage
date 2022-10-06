@@ -8,20 +8,48 @@ body {
     font-family: 'Kadwa', serif;
 }
 
+
 header {
     background-color: #299D8F;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
     
 }
+
+
+@media screen and (min-width:700px) {
+    header {
+        justify-content: space-between;
+        height: 250px;
+    }
+}
+
 
 a {
     color: #CEE3E6;
-}
-
-.nav-header {
-    text-align: right;
     
 }
 
+.nav-header {
+
+    display: none;
+    gap: 20px;
+
+    
+}
+
+
+@media screen and (min-width:700px) {
+    .nav-header {
+        display:flex;
+    }
+}
+
+
+
+/*
 .contact {
     background-color: #B1A1DE;
     padding: 20px;
@@ -31,13 +59,23 @@ a {
     position: sticky;
     top: 20px;
     right: 20px;
+    
+}
+*/
+
+.title {
+    font-family: 'Irish Grover', cursive;
+    font-size: 36px;
+    margin: auto;
+    
+    
 }
 
-h1 {
-    font-family: 'Irish Grover', cursive;
-    font-size: 96px;
-    text-align: center;
-    
+@media screen and (min-width:700px) {
+    .title {
+        font-size: 96px;
+        
+    }
 }
 
 
@@ -45,27 +83,47 @@ h1 {
 
 .avatar-TLSP {
     /*position: relative;*/
-    position: flex;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+
+    
+    
+   
 }
+
 
 .Avatar {
     border-radius: 50%;
-    border: 20px solid #B1A1DE;
+    border: 10px solid #B1A1DE;
+    margin-top: 20px;
+    
+   
     /*display: inline-block;*/
     /*flex-wrap: wrap;*/
-    flex-direction: row;
+    
     
     
 }
 
 .TLSP {
     background-color: #D4FDD3;
-    width: 33%;
+    width: 50%;
     height: 200px;
-    margin: -100px 0 0 300px;
+    margin: 50px 0 0 300px;
     padding: 10px 10px 10px 10px;
-    display: inline-block;
+
+    /*display: inline-block;
+    flex-direction: row;*/
+    
 }
+
+
+
 
 
 .scroll {
@@ -80,41 +138,70 @@ h1 {
     width: 100%;
     height: 400px;
     overflow-x: scroll;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .scroll-photo {
     padding-left: 40px;
     padding-right: 40px;
+    justify-content: center;
+    
     
 }
+
+
+
+
 
 .about {
     width: 80%;
     margin: 0 auto 0 auto;
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    
     
     
 }
 
 .All-the-things {
     background-color: #D4FDD3;
-    width: 25%;
-    height: 400px;
-    display: inline-block;
+    margin-left: auto;
+    
+
+    
+    
+    
 }
 
 .profil {
     border-radius: 50%;
-    display: inline-block;
-    border: 20px solid #B1A1DE;
+    border: 10px solid #B1A1DE;
+    margin: auto;
+    width: 50%;
+    
+    
+   
 }
 
 .About_me {
     background-color: #D4FDD3;
-    width: 25%;
-    height: 400px;
-    display: inline-block;
+    
+    margin: auto;
+    
+    
 }
+
+
+
+
+
+
+
 
 footer {
     background-color: #299D8F;
@@ -129,3 +216,33 @@ footer {
 
 
 
+/*
+.test {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap: 10px;
+
+
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.baby {
+    width: 200px;
+    height: 140px;
+    
+    
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+*/
