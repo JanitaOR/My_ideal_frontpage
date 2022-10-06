@@ -9,6 +9,7 @@ body {
 }
 
 
+
 header {
     background-color: #299D8F;
     width: 100%;
@@ -29,6 +30,7 @@ header {
 
 a {
     color: #CEE3E6;
+    display: flex;
     
 }
 
@@ -36,6 +38,8 @@ a {
 
     display: none;
     gap: 20px;
+    display: flex;
+    
 
     
 }
@@ -49,7 +53,7 @@ a {
 
 
 
-/*
+
 .contact {
     background-color: #B1A1DE;
     padding: 20px;
@@ -61,6 +65,10 @@ a {
     right: 20px;
     
 }
+
+/*
+hvordan kan man få titelen til å 
+krympe med størrelsen på skjermen?
 */
 
 .title {
@@ -79,47 +87,33 @@ a {
 }
 
 
-
+/*
+hvordan får jeg avstand mellom avatarbildet og header? OK
+hvordan får man teksten til å flytte seg under avataren 
+når siden blir smalere?
+*/
 
 .avatar-TLSP {
-    /*position: relative;*/
     width: 80%;
-    margin: 0 auto 0 auto;
-    flex-direction: row;
-    gap: 20px;
     display: flex;
     align-items: center;
-
-
-    
-    
-   
+    margin: auto;
+    margin-top: 20px;
 }
 
 
 .Avatar {
-    border-radius: 50%;
-    border: 10px solid #B1A1DE;
-    margin-top: 20px;
-    
-   
-    /*display: inline-block;*/
-    /*flex-wrap: wrap;*/
-    
-    
-    
+   border-radius: 50%;
+   border: 10px solid #B1A1DE;
+   display: flex;
+   align-items: center;
+   margin: 0 20% 0 0;
 }
 
 .TLSP {
     background-color: #D4FDD3;
-    width: 50%;
-    height: 200px;
-    margin: 50px 0 0 300px;
     padding: 10px 10px 10px 10px;
-
-    /*display: inline-block;
-    flex-direction: row;*/
-    
+    align-items: center;
 }
 
 
@@ -146,54 +140,39 @@ a {
     padding-left: 40px;
     padding-right: 40px;
     justify-content: center;
-    
-    
 }
 
 
-
+/*
+hvordan får jeg mellomrom mellom elementene?
+*/
 
 
 .about {
     width: 80%;
-    margin: 0 auto 0 auto;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 50px;
-    
-    
-    
     
 }
 
 .All-the-things {
+    align-items: center;
     background-color: #D4FDD3;
-    margin-left: auto;
-    
-
-    
-    
-    
 }
 
 .profil {
+    align-items: center;
     border-radius: 50%;
     border: 10px solid #B1A1DE;
-    margin: auto;
-    width: 50%;
-    
-    
-   
+    width: 300px;
 }
 
 .About_me {
+    align-items: center;
     background-color: #D4FDD3;
-    
-    margin: auto;
-    
-    
+    align-items: center;
 }
 
 
@@ -201,16 +180,20 @@ a {
 
 
 
-
+/*
+hvordan fikser man disse?
+*/
 
 footer {
     background-color: #299D8F;
     height: 100px;
+    display: flex;
 
 }
 
 .nav-footer {
-    text-align: center;
+    
+
 
 }
 
