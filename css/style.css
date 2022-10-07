@@ -13,9 +13,9 @@ body {
 header {
     background-color: #299D8F;
     width: 100%;
-    height: 100px;
+/*    height: 100px;*/
 
-    display: flex;
+    display: block;
     
 }
 
@@ -23,25 +23,29 @@ header {
 @media screen and (min-width:700px) {
     header {
         justify-content: space-between;
-        height: 250px;
+        /*height: 250px;*/
     }
 }
 
 
 a {
     color: #CEE3E6;
-    display: flex;
     
+  
+
 }
 
-.nav-header {
 
+
+/*
+hvordan kan man få nav-header nederst til høyre?
+*/
+
+
+.nav-header {
     display: none;
     gap: 20px;
-    display: flex;
-    
-
-    
+    align-items: flex-end;
 }
 
 
@@ -53,17 +57,14 @@ a {
 
 
 
-
 .contact {
     background-color: #B1A1DE;
     padding: 20px;
     border-radius: 30px;
-    margin: 20px;
+    /*margin: 20px;*/
     text-align: center;
-    position: sticky;
-    top: 20px;
-    right: 20px;
-    
+    height: 30px;
+
 }
 
 /*
@@ -90,24 +91,31 @@ krympe med størrelsen på skjermen?
 /*
 hvordan får jeg avstand mellom avatarbildet og header? OK
 hvordan får man teksten til å flytte seg under avataren 
-når siden blir smalere?
+når siden blir smalere? flex-wrap?
 */
 
 .avatar-TLSP {
     width: 80%;
-    display: flex;
+ /*   display: flex;*/
+    flex-wrap: wrap;
     align-items: center;
     margin: auto;
     margin-top: 20px;
 }
-
-
+/*
+@media screen and (min-width:1100px) {
+    .Avatar {
+        width: 50%;
+    }
+}
+*/
 .Avatar {
    border-radius: 50%;
    border: 10px solid #B1A1DE;
    display: flex;
    align-items: center;
    margin: 0 20% 0 0;
+   width: 300px;
 }
 
 .TLSP {
@@ -154,12 +162,12 @@ hvordan får jeg mellomrom mellom elementene?
     margin: auto;
     margin-top: 20px;
     margin-bottom: 50px;
-    
 }
 
 .All-the-things {
     align-items: center;
     background-color: #D4FDD3;
+    
 }
 
 .profil {
@@ -167,6 +175,7 @@ hvordan får jeg mellomrom mellom elementene?
     border-radius: 50%;
     border: 10px solid #B1A1DE;
     width: 300px;
+    
 }
 
 .About_me {
@@ -188,15 +197,27 @@ footer {
     background-color: #299D8F;
     height: 100px;
     display: flex;
-
 }
 
 .nav-footer {
+    display: none;
+    gap: 20px;
+    margin: auto;
     
-
-
 }
 
+
+@media screen and (min-width:700px) {
+    .nav-footer {
+        display:flex;
+    }
+}
+
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
 
 
 /*
