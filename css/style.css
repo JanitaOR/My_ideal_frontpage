@@ -74,15 +74,16 @@ krympe med størrelsen på skjermen?
 
 .title {
     font-family: 'Irish Grover', cursive;
-    font-size: 36px;
-    margin: auto;
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
     
     
 }
 
 @media screen and (min-width:700px) {
     .title {
-        font-size: 96px;
+        
         
     }
 }
