@@ -13,7 +13,7 @@ body {
 header {
     background-color: #299D8F;
     width: 100%;
-/*    height: 100px;*/
+    height: 30vw;
 
     display: block;
     
@@ -23,7 +23,7 @@ header {
 @media screen and (min-width:700px) {
     header {
         justify-content: space-between;
-        /*height: 250px;*/
+        height: 250px;
     }
 }
 
@@ -52,6 +52,7 @@ hvordan kan man få nav-header nederst til høyre?
 @media screen and (min-width:700px) {
     .nav-header {
         display:flex;
+        
     }
 }
 
@@ -74,7 +75,7 @@ krympe med størrelsen på skjermen?
 
 .title {
     font-family: 'Irish Grover', cursive;
-    font-size: 10vw;
+    font-size: 7vw;
     display: flex;
     justify-content: center;
     
@@ -83,7 +84,7 @@ krympe med størrelsen på skjermen?
 
 @media screen and (min-width:700px) {
     .title {
-        
+       
         
     }
 }
@@ -97,7 +98,7 @@ når siden blir smalere? flex-wrap?
 
 .avatar-TLSP {
     width: 80%;
- /*   display: flex;*/
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
