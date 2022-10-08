@@ -16,6 +16,7 @@ header {
     height: 30vw;
 
     display: block;
+    position: relative;
     
 }
 
@@ -46,6 +47,7 @@ hvordan kan man få nav-header nederst til høyre?
     display: none;
     gap: 20px;
     align-items: flex-end;
+    
 }
 
 
@@ -56,15 +58,31 @@ hvordan kan man få nav-header nederst til høyre?
     }
 }
 
+.hamburger {
+    display: block;
+    position: absolute;
+    
+    
+
+    
+}
+
+@media screen and (min-width:700px) {
+    .hamburger {
+        display: none;
+    }
+}
 
 
 .contact {
     background-color: #B1A1DE;
     padding: 20px;
     border-radius: 30px;
-    /*margin: 20px;*/
+
     text-align: center;
     height: 30px;
+    display: block;
+  
 
 }
 
@@ -103,6 +121,7 @@ når siden blir smalere? flex-wrap?
     align-items: center;
     margin: auto;
     margin-top: 20px;
+    justify-content: space-evenly
 }
 /*
 @media screen and (min-width:1100px) {
@@ -116,15 +135,26 @@ når siden blir smalere? flex-wrap?
    border: 10px solid #B1A1DE;
    display: flex;
    align-items: center;
-   margin: 0 20% 0 0;
-   width: 300px;
+   margin: auto;
+   width: calc(250px + 10vw);
 }
 
 .TLSP {
     background-color: #D4FDD3;
     padding: 10px 10px 10px 10px;
     align-items: center;
+    display: flex;
+    width: 300px;
+    margin: auto;
 }
+
+@media screen and (min-width:700px) {
+    .TLSP {
+        width: calc(30% + 10vw);
+        
+    }
+}
+
 
 
 
