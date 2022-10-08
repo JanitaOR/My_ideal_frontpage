@@ -61,6 +61,8 @@ hvordan kan man få nav-header nederst til høyre?
 .hamburger {
     display: block;
     position: absolute;
+    width: 40px;
+    
     
     
 
@@ -121,7 +123,9 @@ når siden blir smalere? flex-wrap?
     align-items: center;
     margin: auto;
     margin-top: 20px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    gap: 20px;
+
 }
 /*
 @media screen and (min-width:1100px) {
@@ -148,10 +152,12 @@ når siden blir smalere? flex-wrap?
     margin: auto;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:1100px) {
     .TLSP {
         width: calc(30% + 10vw);
         
+    }
+  
     }
 }
 
