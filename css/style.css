@@ -102,7 +102,7 @@ krympe med størrelsen på skjermen?
     
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:1200px) {
     .title {
        
         
@@ -201,7 +201,7 @@ hvordan får jeg mellomrom mellom elementene?
     margin: auto;
     margin-top: 20px;
     margin-bottom: 50px;*/
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -213,22 +213,25 @@ hvordan får jeg mellomrom mellom elementene?
 
 @media screen and (min-width:700px) {
     .about {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 }
 
+.coloum1 {
+   
+}
+
 .All-the-things {
-/*    align-items: center;
-    background-color: #D4FDD3;*/
     background-color: #D4FDD3;
     padding: 10px 10px 10px 10px;
     align-items: center;
     display: flex;
-    width: calc(200px + 10vw);
+/*    width: calc(200px + 10vw);*/
+  width: 300px;  
     margin: auto;
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1200px) {
     .All-the-things {
         width: calc(200px + 10vw);
     }
@@ -256,11 +259,13 @@ hvordan får jeg mellomrom mellom elementene?
     padding: 10px 10px 10px 10px;
     align-items: center;
     display: flex;
-    width: 300px;
+   width: 300px;
+/* width: calc(200px + 10vw);*/
     margin: auto;
+   
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1200px) {
     .About_me {
         width: calc(200px + 10vw);
 
