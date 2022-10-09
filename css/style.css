@@ -127,6 +127,7 @@ når siden blir smalere? flex-wrap?
     gap: 20px;
 
 }
+
 /*
 @media screen and (min-width:1100px) {
     .Avatar {
@@ -159,7 +160,7 @@ når siden blir smalere? flex-wrap?
     }
   
     }
-}
+
 
 
 
@@ -195,33 +196,73 @@ hvordan får jeg mellomrom mellom elementene?
 
 
 .about {
-    width: 80%;
+    /*width: 80%;
     display: flex;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;*/
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+@media screen and (min-width:700px) {
+    .about {
+        flex-wrap: nowrap;
+    }
 }
 
 .All-the-things {
-    align-items: center;
+/*    align-items: center;
+    background-color: #D4FDD3;*/
     background-color: #D4FDD3;
-    
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    width: calc(200px + 10vw);
+    margin: auto;
+}
+
+@media screen and (min-width:1100px) {
+    .All-the-things {
+        width: calc(200px + 10vw);
+    }
 }
 
 .profil {
     align-items: center;
     border-radius: 50%;
     border: 10px solid #B1A1DE;
-    width: 300px;
+    /*width: 300px;*/
+    width: calc(200px + 10vw);
     
 }
+/*
+@media screen and (min-width:1100px) {
+    .profil {
+        width: calc(150px + 10vw);
+    }
+}*/
 
 .About_me {
-    align-items: center;
+    /*align-items: center;
+    background-color: #D4FDD3;*/
     background-color: #D4FDD3;
-    
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    margin: auto;
 }
 
+@media screen and (min-width:1100px) {
+    .About_me {
+        width: calc(200px + 10vw);
 
 
 
