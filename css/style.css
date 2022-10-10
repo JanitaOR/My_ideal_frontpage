@@ -15,57 +15,59 @@ header {
     width: 100%;
     height: 30vw;
 
-    display: block;
-    position: relative;
+    display: inline-block;
+   
+
     
-}
-
-
-@media screen and (min-width:700px) {
-    header {
-        justify-content: space-between;
-        height: 250px;
-    }
 }
 
 
 a {
     color: #CEE3E6;
+}
+
+
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    float: left;
+     margin: 20px;
     
-  
+    
+}
+
+.shop {
+    
 
 }
 
 
 
-/*
-hvordan kan man få nav-header nederst til høyre?
-*/
-
 
 .nav-header {
     display: none;
-    gap: 20px;
-    align-items: flex-end;
-    
 }
 
 
 @media screen and (min-width:700px) {
     .nav-header {
-        display:flex;
+        display: flex;
+        justify-content: flex-end;
         
     }
 }
 
-.hamburger {
-    display: block;
-    position: absolute;
-    width: 40px;
-    
-    
-    
 
+/*hvordan få hamburgeren overst til høyre?*/
+
+
+.hamburger {
+    display: inline-block;
+    
+    width: 50px;
     
 }
 
@@ -84,6 +86,7 @@ hvordan kan man få nav-header nederst til høyre?
     text-align: center;
     height: 30px;
     display: block;
+   
   
 
 }
@@ -158,8 +161,7 @@ når siden blir smalere? flex-wrap?
         width: calc(30% + 10vw);
         
     }
-  
-    }
+}
 
 
 
@@ -190,9 +192,10 @@ når siden blir smalere? flex-wrap?
 }
 
 
-/*
-hvordan får jeg mellomrom mellom elementene?
-*/
+
+
+
+
 
 
 .about {
@@ -217,9 +220,14 @@ hvordan får jeg mellomrom mellom elementene?
     }
 }
 
+
+
 .coloum1 {
    
 }
+
+
+
 
 .All-the-things {
     background-color: #D4FDD3;
@@ -229,6 +237,7 @@ hvordan får jeg mellomrom mellom elementene?
 /*    width: calc(200px + 10vw);*/
   width: 300px;  
     margin: auto;
+    
 }
 
 @media screen and (min-width:1200px) {
@@ -269,43 +278,50 @@ hvordan får jeg mellomrom mellom elementene?
     .About_me {
         width: calc(200px + 10vw);
 
+    }
 
 
-
+}
 
 /*
-hvordan fikser man disse?
+hvordan fikser man footer?
 */
+
+.instagram {
+    width: 50px;
+}
+
+
+.facebook {
+    width: 50px;
+}
+
+.pinterest {
+    width: 50px;
+}
 
 footer {
-    background-color: #299D8F;
-    height: 100px;
-    display: flex;
+    background-color: #299d8f;
+    height: 200px;
+   display: flex;
+   justify-content: center;
 }
-
-.nav-footer {
-    display: none;
-    gap: 20px;
-    margin: auto;
-    
-}
-
-/*
-@media screen and (min-width:700px) {
-    .nav-footer {
-        display:flex;
-    }
-}
-*/
-
 
 footer ul {
+    list-style-type: none;
     
-    display: flex;
-    align-items: center;
 }
 
-.
+footer li {
+    float: left; 
+/*    text-align: center;*/
+    margin: calc(20px + 2vw);
+   
+}
+
+
+
+
 
 /*
 .test {
