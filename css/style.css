@@ -78,17 +78,34 @@ header li {
 }
 
 
-.contact {
+.shop {
     background-color: #B1A1DE;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 30px;
 
     text-align: center;
     height: 30px;
     display: block;
-   
-  
+}
 
+.galleri {
+    background-color: #B1A1DE;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    text-align: center;
+    height: 30px;
+    display: block;
+}
+
+.contact {
+    background-color: #B1A1DE;
+    padding: 10px;
+    border-radius: 30px;
+
+    text-align: center;
+    height: 30px;
+    display: block;
 }
 
 /*
@@ -98,19 +115,13 @@ krympe med størrelsen på skjermen?
 
 .title {
     font-family: 'Irish Grover', cursive;
-    font-size: 7vw;
+    font-size: 8vw;
     display: flex;
     justify-content: center;
     
     
 }
 
-@media screen and (min-width:1200px) {
-    .title {
-       
-        
-    }
-}
 
 
 /*
@@ -288,17 +299,19 @@ hvordan fikser man footer?
 */
 
 .instagram {
-    width: 50px;
+    width: 70px;
 }
 
 
 .facebook {
-    width: 50px;
+    width: 70px;
 }
 
 .pinterest {
-    width: 50px;
+    width: 70px;
 }
+
+
 
 footer {
     background-color: #299d8f;
@@ -313,12 +326,21 @@ footer ul {
 }
 
 footer li {
-    float: left; 
-/*    text-align: center;*/
-    margin: calc(20px + 2vw);
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
    
 }
 
+@media screen and (min-width:700px) {
+    footer li {
+        float: left; 
+/*    text-align: center;*/
+    margin: calc(20px + 2vw);
+    }
+}
 
 
 
