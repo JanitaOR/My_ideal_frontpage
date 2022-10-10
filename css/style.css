@@ -290,12 +290,13 @@ footer {
     
 }
 
-
+/*
 @media screen and (min-width:700px) {
     .nav-footer {
         display:flex;
     }
 }
+*/
 
 
 footer ul {
@@ -304,6 +305,7 @@ footer ul {
     align-items: center;
 }
 
+.
 
 /*
 .test {
