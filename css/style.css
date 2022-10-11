@@ -187,7 +187,7 @@ når siden blir smalere? flex-wrap?
 
 
 .scroll {
-    width: 140rem;
+    width: 200rem;
     overflow: scroll;
     float:left;
     overflow-x: auto;
