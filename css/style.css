@@ -22,15 +22,15 @@ header {
     height: 30vw;
 
     display: inline-block;
-   
-
-    
 }
+
+
 
 
 a {
     color: #CEE3E6;
 }
+
 
 
 
@@ -41,13 +41,6 @@ header ul {
 header li {
     float: left;
      margin: 1rem;
-    
-    
-}
-
-.shop {
-    
-
 }
 
 
@@ -62,7 +55,6 @@ header li {
     .nav-header {
         display: flex;
         justify-content: flex-end;
-        
     }
 }
 
@@ -72,10 +64,9 @@ header li {
 
 .hamburger {
     display: inline-block;
-    
     width: 2.5rem;
-    
 }
+
 
 @media screen and (min-width:700px) {
     .hamburger {
@@ -83,12 +74,14 @@ header li {
     }
 }
 
+
+
 header ul li a:hover {
     background-color: #D4FDD3;
     color:#294754
-    
-
 }
+
+
 
 header ul li a {
     background-color: #B1A1DE;
@@ -104,45 +97,7 @@ header ul li a {
 }
 
 
-/*.shop {
-    background-color: #B1A1DE;
-    padding: 10px 20px;
-    border-radius: 1.5rem;
 
-    text-align: center;
-    height: 1.5rem;
-    display: block;
-}
-
-
-
-.galleri {
-    background-color: #B1A1DE;
-    padding: 10px 20px;
-    border-radius: 1.5rem;
-
-    text-align: center;
-    height: 1.5rem;
-    display: block;
-}
-
-.contact {
-    background-color: #B1A1DE;
-    padding: 10px;
-    border-radius: 30px;
-
-    text-align: center;
-    height: 1.5rem;
-    display: block;
-}*/
-
-
-
-
-/*
-hvordan kan man få titelen til å 
-krympe med størrelsen på skjermen?
-*/
 
 .title {
     font-family: 'Irish Grover', cursive;
@@ -170,7 +125,6 @@ når siden blir smalere? flex-wrap?
     margin-top: 1rem;
     justify-content: space-evenly;
     gap: 1rem;
-
 }
 
 /*
@@ -180,6 +134,8 @@ når siden blir smalere? flex-wrap?
     }
 }
 */
+
+
 .Avatar {
    border-radius: 50%;
    border: 0.5rem solid #B1A1DE;
@@ -189,6 +145,7 @@ når siden blir smalere? flex-wrap?
    width: calc(250px + 10vw);
 }
 
+
 .TLSP {
     background-color: #D4FDD3;
     padding: 0.5rem;
@@ -197,6 +154,7 @@ når siden blir smalere? flex-wrap?
     width: 300px;
     margin: auto;
 }
+
 
 @media screen and (min-width:1100px) {
     .TLSP {
@@ -264,11 +222,6 @@ når siden blir smalere? flex-wrap?
 
 
 
-.coloum1 {
-   
-}
-
-
 
 
 .All-the-things {
@@ -314,9 +267,9 @@ når siden blir smalere? flex-wrap?
    
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:700px) {
     .About_me {
-        width: 10rem;
+        
 
     }
 
@@ -324,7 +277,7 @@ når siden blir smalere? flex-wrap?
 }
 
 /*
-fikse man footer?
+fikse footer?
 */
 
 .instagram {
@@ -355,8 +308,7 @@ footer ul {
 }
 
 footer li {
-    float: left;
-    display: flex;
+    float: left; 
     justify-content: space-between;
     text-align: center;
     margin: 1rem;
@@ -365,8 +317,9 @@ footer li {
 
 @media screen and (min-width:700px) {
     footer li {
-        float: left; 
-/*    text-align: center;*/
+        display: flex;
+       /* float: left; 
+   text-align: center;*/
     margin: 1rem;
     }
 }
