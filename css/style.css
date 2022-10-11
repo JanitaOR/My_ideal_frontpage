@@ -21,8 +21,11 @@ header {
     width: 100%;
     height: 30vw;
 
-    display: inline-block;
+    display: flex;
+    flex-flow: column nowrap;
 }
+
+
 
 
 
@@ -65,7 +68,7 @@ header li {
 .hamburger {
     display: flex;
     width: 2.5rem;
-
+    align-self: flex-end;
 }
 
 
@@ -323,13 +326,18 @@ fikse footer?
 
 .shop {
     order: 30;
-    padding: 1rem 3rem;
+/*    padding: 1rem 3rem;  */
+        padding: 50px;
 
 }
 
 .galleri { 
     order: 45;
-    padding: 1rem 3rem;
+    /* padding: 1rem 3rem; */
+    padding: 1rem 50px;
+    
+    
+
 }
 
 
@@ -343,6 +351,7 @@ fikse footer?
     
     .shop {
         order: 20;
+        padding: 1rem 2rem;
     }
     
 
@@ -352,6 +361,7 @@ fikse footer?
 
     .galleri {
        order: 60;
+       padding: 1rem 2rem;
     }
 
 
@@ -368,7 +378,7 @@ fikse footer?
 
 .footer {
     background-color: #299d8f;
-    height: 10rem;
+    height: 11rem;
    justify-content: center;
 }
 
