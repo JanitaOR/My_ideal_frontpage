@@ -3,7 +3,7 @@
 
 
 html {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -83,8 +83,28 @@ header li {
     }
 }
 
+header ul li a:hover {
+    background-color: #D4FDD3;
+    color:#294754
+    
 
-.shop {
+}
+
+header ul li a {
+    background-color: #B1A1DE;
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+
+    text-align: center;
+    height: 1.5rem;
+    display: block;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+}
+
+
+/*.shop {
     background-color: #B1A1DE;
     padding: 10px 20px;
     border-radius: 1.5rem;
@@ -94,9 +114,11 @@ header li {
     display: block;
 }
 
+
+
 .galleri {
     background-color: #B1A1DE;
-    padding: 0.5rem 1rem;
+    padding: 10px 20px;
     border-radius: 1.5rem;
 
     text-align: center;
@@ -106,13 +128,16 @@ header li {
 
 .contact {
     background-color: #B1A1DE;
-    padding: 0.5rem;
+    padding: 10px;
     border-radius: 30px;
 
     text-align: center;
     height: 1.5rem;
     display: block;
-}
+}*/
+
+
+
 
 /*
 hvordan kan man få titelen til å 
@@ -346,6 +371,25 @@ footer li {
     }
 }
 
+footer ul li a:hover {
+    background-color: #D4FDD3;
+    color:#294754
+    
+
+}
+
+footer ul li a {
+    background-color: #B1A1DE;
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+
+    text-align: center;
+    height: 1.5rem;
+    display: block;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+}
 
 
 
