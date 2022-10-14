@@ -67,8 +67,9 @@ header li {
 
 .hamburger {
     display: flex;
-    width: 2.5rem;
+    width: 2rem;
     align-self: flex-end;
+    padding: 1rem 1rem 0 0;
 }
 
 
