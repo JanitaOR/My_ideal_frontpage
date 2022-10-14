@@ -398,9 +398,9 @@ footer nav ul {
     flex-wrap: wrap;
 }
 
+
 footer li {
     text-align: center;
-   
 }
 
 @media screen and (min-width:900px) {
@@ -411,12 +411,12 @@ footer li {
     }
 }
 
+
 footer ul li a:hover {
     background-color: #D4FDD3;
     color:#294754
-    
-
 }
+
 
 footer ul li a {
     background-color: #B1A1DE;
