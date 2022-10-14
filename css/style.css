@@ -103,7 +103,19 @@ header ul li a {
     animation-duration: 1s;
    /*  animation-iteration-count: 3; */
    
-    
+    /* for å finne bilder i fra stylesheet til
+     assets= "../assets.....osv" to punktum for å komme ut 
+     av den mappen vi er i for å gå inn i en annen mappe
+     
+     
+     background-image:.....;
+     background- repeat:none;
+     background- size: cover;  
+        cover gjør at bildet dekker hele siden og følger størrelsen på nettleseren.
+     background- position: 
+        center; center gjør at bildet sentrerer seg så senteret av bildet 
+        vises i containeren den er plasert i.
+     */
     
     
     
