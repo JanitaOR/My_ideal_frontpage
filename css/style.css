@@ -90,7 +90,7 @@ header ul li a:hover {
 
 header ul li a {
     background-color: #B1A1DE;
-    padding: 10px 20px;
+    padding: 1rem;
     border-radius: 1.5rem;
     text-align: center;
     height: 1.5rem;
@@ -199,7 +199,7 @@ header ul li a {
 
 
 .scroll {
-    width: 200rem;
+    width: 170rem;
     overflow: scroll;
     float:left;
     overflow-x: auto;
@@ -419,7 +419,7 @@ footer ul li a:hover {
 
 footer ul li a {
     background-color: #B1A1DE;
-    padding: 10px 20px;
+    padding: 1rem;
     border-radius: 1.5rem;
 
     text-align: center;
