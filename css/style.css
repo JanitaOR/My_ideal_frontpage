@@ -132,6 +132,8 @@ header ul li a {
 }
 
 
+
+
 .title {
     font-family: 'Irish Grover', cursive;
     font-size: 9vw;
@@ -142,12 +144,6 @@ header ul li a {
 }
 
 
-
-/*
-hvordan får jeg avstand mellom avatarbildet og header? OK
-hvordan får man teksten til å flytte seg under avataren 
-når siden blir smalere? flex-wrap?
-*/
 
 .avatar-TLSP {
     width: 80%;
@@ -338,15 +334,15 @@ fikse footer?
 
 .shop {
     order: 30;
-/*    padding: 1rem 3rem;  */
-        padding: 50px;
+    padding: 1rem 3rem; 
+ /*       padding: 50px; */
 
 }
 
 .galleri { 
     order: 45;
-    /* padding: 1rem 3rem; */
-    padding: 1rem 50px;
+    padding: 1rem 3rem; 
+   /*  padding: 1rem 50px;*/
     
     
 
