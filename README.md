@@ -13,7 +13,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/calchttps://developer.mozilla.o
 
   In my case (px * vw(% of the viewport)).
 
-
+Order, is a property that you use when you need a number of elements in a different order than they are written in the html code.
 
 **note to my self**
 
