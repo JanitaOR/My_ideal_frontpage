@@ -6,15 +6,12 @@ html {
     font-size: 16px;
 }
 
-
-
 body {
     background-color: #D4FDD3;
     background-image: linear-gradient(to bottom, #d4fdd3, #299d8f, #294754);
     color: #294754;
     font-family: 'Kadwa', serif;
 }
-
 
 header {
     background-color: #299D8F;
@@ -25,17 +22,9 @@ header {
     flex-flow: column nowrap;
 }
 
-
-
-
-
-
 a {
     color: #CEE3E6;
 }
-
-
-
 
 header ul {
     list-style: none;
@@ -46,13 +35,9 @@ header li {
      margin: 1rem;
 }
 
-
-
-
 .nav-header {
     display: none;
 }
-
 
 @media screen and (min-width:900px) {
     .nav-header {
@@ -61,7 +46,6 @@ header li {
     }
 }
 
-
 .hamburger {
     display: flex;
     width: 2rem;
@@ -69,22 +53,16 @@ header li {
     padding: 1rem 1rem 0 0;
 }
 
-
 @media screen and (min-width:900px) {
     .hamburger {
         display: none;
     }
 }
 
-
-
 header ul li a:hover {
     background-color: #D4FDD3;
-    color:#294754;
-    
+    color:#294754;    
 }
-
-
 
 header ul li a {
     background-color: #B1A1DE;
@@ -95,14 +73,10 @@ header ul li a {
     display: block;
     transition: all;
     transition-duration: 0.3s;
-    transition-delay: 0.2s;
-    
+    transition-delay: 0.2s;    
     animation-name: movein;
     animation-duration: 1s;
-   /*  animation-iteration-count: 3; */
-
-    
-   
+   /*  animation-iteration-count: 3;        this make the meny come in from the right 3 times*/
 }
 
 @keyframes movein {
@@ -114,19 +88,12 @@ header ul li a {
     }
 }
 
-
-
-
 .title {
     font-family: 'Irish Grover', cursive;
     font-size: 9vw;
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
-
-
 
 .avatar-TLSP {
     width: 80%;
@@ -139,15 +106,6 @@ header ul li a {
     gap: 1rem;
 }
 
-/*
-@media screen and (min-width:1100px) {
-    .Avatar {
-        width: 50%;
-    }
-}
-*/
-
-
 .Avatar {
    border-radius: 50%;
    border: 0.5rem solid #B1A1DE;
@@ -155,9 +113,8 @@ header ul li a {
    align-items: center;
    margin: auto;
    width: calc(250px + 10vw);
-   /*see references*/
+   /*read about calc and vw in README.md*/
 }
-
 
 .TLSP {
     background-color: #D4FDD3;
@@ -168,19 +125,11 @@ header ul li a {
     margin: auto;
 }
 
-
 @media screen and (min-width:900px) {
     .TLSP {
-        width: 300px;
-        
+        width: 300px;        
     }
 }
-
-
-
-
-
-
 
 .scroll {
     width: 170rem;
@@ -204,19 +153,7 @@ header ul li a {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
 .about {
-    /*width: 80%;
-    display: flex;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 50px;*/
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -230,31 +167,23 @@ header ul li a {
 
 @media screen and (min-width: 1100px) {
     .about {
-        /* flex-wrap: wrap;
-     */
     flex-direction: row;
     flex-wrap: wrap;
     }
 }
-
-
-
 
 .All-the-things {
     background-color: #D4FDD3;
     padding: 0.5rem;
     align-items: center;
     display: flex;
-/*    width: calc(200px + 10vw);*/
-  width: 60%;  
+    width: 60%;  
     margin: auto;
-    
 }
 
 @media screen and (min-width:1100px) {
     .All-the-things {
         width: calc(200px + 10vw);
-        /* width: 15rem;  */
     }
 }
 
@@ -262,16 +191,8 @@ header ul li a {
     align-items: center;
     border-radius: 50%;
     border: 0.5rem solid #B1A1DE;
-    /*width: 300px;*/
     width: calc(200px + 10vw);
-    
 }
-/*
-@media screen and (min-width:1100px) {
-    .profil {
-        width: calc(150px + 10vw);
-    }
-}*/
 
 .About_me {
     background-color: #D4FDD3;
@@ -279,19 +200,14 @@ header ul li a {
     align-items: center;
     display: flex;
     width: 60%;
-/* width: calc(200px + 10vw);*/
     margin: auto;
-   
 }
 
 @media screen and (min-width:1100px) {
     .About_me {
         width: 15rem;
-
     }
 }
-
-
 
 .facebook img {
     width: 3.5rem;
@@ -314,19 +230,12 @@ header ul li a {
 .shop {
     order: 30;
     padding: 1rem 3rem; 
- /*       padding: 50px; */
-
 }
 
 .galleri { 
     order: 45;
     padding: 1rem 3rem; 
-   /*  padding: 1rem 50px;*/
 }
-
-
-
-
 
 @media screen and (min-width: 800px) {
     .facebook {
@@ -338,7 +247,6 @@ header ul li a {
         padding: 1rem 2rem;
     }
     
-
     .pinterest {
         order: 40;
     }
@@ -348,17 +256,11 @@ header ul li a {
        padding: 1rem 2rem;
     }
 
-
     .instagram {
         order: 80;
-
     }
-    
 }
-
-
-
-
+/*read about order in README.md */
 
 .footer {
     background-color: #299d8f;
@@ -373,19 +275,15 @@ footer nav ul {
     flex-wrap: wrap;
 }
 
-
 footer li {
     text-align: center;
 }
 
 @media screen and (min-width:900px) {
     footer li {
-       /* float: left; 
-    text-align: center;*/
     margin: 1rem;
     }
 }
-
 
 footer ul li a:hover {
     background-color: #D4FDD3;
